@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(51, 36, 133);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    color: white;
+}
+.container {
+    background-color: rgb(81, 69, 194);
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+input{
+    max-width: 376px;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}

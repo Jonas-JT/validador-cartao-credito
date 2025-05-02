@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Cartão de Crédito</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador de Cartão de Crédito</h1>
+        <input type="text" id="numeroCartao" placeholder="Digite o número do cartão">
+        <button onclick="verificarCartao()">Verificar</button>
+        <button onclick="limparCampos()">Limpar</button>
+        <div class="resultado" id="resultado"></div>
+    </div>
+
+    <script src="./src//scripts/Index.js"></script>
+    <script>
+        function verificarCartao() {
+            const numeroCartao = document.getElementById('numeroCartao').value;
+            const resultado = validarBandeiraCartao(numeroCartao);
+            document.getElementById('resultado').innerText = resultado;
+        }
+
+        function limparCampos() {
+            document.getElementById('numeroCartao').value = '';
+            document.getElementById('resultado').innerText = '';
+        }
+    </script>
+</body>
+</html>

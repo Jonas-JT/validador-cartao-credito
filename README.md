@@ -1,7 +1,7 @@
 # 💳 Verificador de Bandeira de Cartão de Crédito
 
 Este projeto é uma aplicação simples em **JavaScript** que identifica automaticamente a **bandeira do cartão de crédito** (Visa, MasterCard, etc.) a partir do número inserido. A interface foi criada com **HTML/CSS** e o código foi desenvolvido com suporte do **GitHub Copilot** para acelerar a implementação.
-[Acesse aqui](https://tgk-dragon.github.io/validador-cartao-credito/)
+[Acesse aqui](https://jonas-jt.github.io/validador-cartao-credito/)
 
 ## 🚀 Funcionalidades
 
